@@ -1,0 +1,41 @@
+//Button trigger modal
+//button.btn.btn-primary.btn-lg(type="button"  data-toggle="modal" data-target="#myModal")| Launch demo modal
+//Modal
+#myModal.myModal.modal.fade(tabindex="-1" role="dialog" aria-labelledby="myModalLabel")
+    .modal-dialog(role="document")
+        .modal-content
+            .modal-header
+                button.close(type="button" data-dismiss="modal" aria-label="Close")
+                    span.modal-close(aria-hidden="true")
+                h4#myModalLabel.modal-title
+                    | Корзина
+            .modal-body
+                .row
+                    .col-sm-3
+                        .basket__img-block
+                            img.basket__img(src="img/product_1.png")
+                    .col-sm-9
+                        .basket__title-block
+                            h3.basket__title
+                                | Когтеточка–домик Trixie «Moriles»
+                        .basket__description-block
+                            p.basket__description
+                                | Коричневая
+                            span.basket__price
+                                | 100000 руб
+                        .basket__weight-block
+                            span.basket__weight-title
+                                | Количество, шт
+                            .basket__weight-control
+                                span.basket__weight-minus -
+                                span.basket__weight(data-guantity="1") 1
+                                span.basket__weight-add +
+            .modal-footer
+                .basket__total-price-block
+                    span.basket__total-wpapper
+                        | Итого:  <span class="total-price" data-total-price="55000">55 000 </span>Br
+
+                button.close-modal-button(type="button" data-dismiss="modal")
+                    | Вернуться в каталог
+                button.send-form(type="button")
+                    | Оформить заказ

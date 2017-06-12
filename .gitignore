@@ -9,3 +9,4 @@ index.pug
 index.html
 !/app/
 !/app/img/
+!/app/pug/
