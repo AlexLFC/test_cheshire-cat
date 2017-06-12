@@ -1,0 +1,9 @@
+.idea/
+DIST/
+img/
+js/
+pug/
+style/
+TEST/
+index.pug
+index.html
