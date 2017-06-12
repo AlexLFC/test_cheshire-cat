@@ -1,0 +1,31 @@
+@media screen and (max-width: 1200px){
+  .product__img-block{
+    height: 330px;
+  }
+}
+@media screen and (max-width: 992px){
+  .product__img-block{
+    height: 350px;
+  }
+}
+@media screen and (max-width: 700px){
+  .product__img-block{
+    height: 310px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .product__img-block{
+    height: 270px;
+  }
+}
+@media screen and (max-width: 600px){
+  .col-xs-cost{
+    width: 100%;
+  }
+  .product__img{
+    height: auto;
+    width: auto;
+  }
+}
+

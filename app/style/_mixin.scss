@@ -1,0 +1,41 @@
+//********************************************************************
+//***CLEARFIX
+//********************************************************************
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+//********************************************************************
+//***MEDIA
+//********************************************************************
+@mixin media_desktop(){
+  @media screen and (max-width: 1200px){
+    @content
+  }
+}
+@mixin media_laptop(){
+  @media screen and (max-width: 992px){
+    @content
+  }
+}
+@mixin media_tablets(){
+  @media screen and (max-width: 768px){
+    @content
+  }
+}
+@mixin media_phones(){
+  @media screen and (max-width: 480px){
+    @content
+  }
+}
+
+//********************************************************************
+//***REM
+//********************************************************************
+@function rem($px){
+  @return $px / 16px + 0rem;
+}

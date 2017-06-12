@@ -1,0 +1,29 @@
+@import "mixin";
+
+
+html{
+  font-size: 16px;
+}
+
+
+body{
+  min-width: 320px;
+}
+.header{
+  height: rem(20px);
+}
+.header{
+  @include media_laptop{
+    background: red;
+  }
+}
+
+@import "include/_product";
+@import "include/_modal";
+footer{
+  height: 150px;
+}
+
+@import "include/_media";
+
+

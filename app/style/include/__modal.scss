@@ -1,0 +1,151 @@
+.myModal{
+  .modal-content{
+    border-radius: 0;
+    padding: 13px 27px;
+  }
+  .modal-title{
+    font-size: 22px;
+    color: #445264;
+    font-family: "Open Sans";
+  }
+  .close{
+    font-size: 42px;
+    color: #000000;
+    opacity: 1;
+    &:active{
+      outline: none;
+    }
+  }
+  .modal-header{
+    padding: 0;
+    border-bottom: 1px solid #000000;
+  }
+  .modal-body{
+    border-bottom: 1px solid #000000;
+  }
+}
+
+@media (min-width: 768px){
+  .myModal .modal-dialog {
+    width: 580px;
+  }
+}
+
+.modal-close{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("../img/close.png") no-repeat center center;
+}
+
+
+.basket__img{
+  width: 100%;
+  height: auto;
+}
+.basket__title-block{
+  margin-bottom: 20px;
+  padding-left: 14px;
+  height: 50px;
+}
+.basket__title{
+  font-size: 16px;
+  color: #445264;
+  margin-top: 16px;
+}
+.basket__description-block,
+.basket__weight-block{
+  @include clearfix;
+}
+.basket__description-block{
+  padding-left: 15px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  color: #445264;
+}
+.basket__description,
+.basket__weight-title{
+  float: left;
+  width: 70%;
+}
+.basket__price,
+.basket__weight-control{
+  display: block;
+  float: right;
+  width: 30%;
+  text-align: right;
+}
+.basket__total-price-block{
+  margin-bottom: 15px;
+}
+
+.basket__weight-block{
+  padding-left: 15px;
+}
+.basket__weight-title{
+  font-family: "Open Sans";
+  font-size: 15px;
+  color: #445264;
+}
+.basket__weight-minus, .basket__weight, .basket__weight-add{
+  display: inline-block;
+  color: #445264;
+}
+.basket__weight{
+  width: 34px;
+  text-align: center;
+}
+.basket__weight-minus, .basket__weight-add{
+  padding: 5px 11px;
+  border: 1px solid #e6e6e6;
+  cursor: pointer;
+}
+
+.basket__total-wpapper{
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #445264;
+}
+.total-price{
+  padding-right: 10px;
+  text-align: right;
+  display: inline-block;
+  width: 78px;
+}
+.close-modal-button{
+  background: #a2a8b1;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 15px;
+  border-radius: 0;
+  border: none;
+  padding:  8px 17px;
+  &:link{
+    outline: none;
+  }
+  &:visited{
+    outline: none;
+  }
+  &:active{
+    outline: none;
+  }
+}
+.send-form{
+  background: #ff7f66;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 15px;
+  border-radius: 0;
+  border: none;
+  padding:  8px 17px;
+  margin-left: 10px;
+  &:link{
+    outline: none;
+  }
+  &:visited{
+    outline: none;
+  }
+  &:active{
+    outline: none;
+  }
+}
