@@ -7,3 +7,5 @@ style/
 TEST/
 index.pug
 index.html
+!/app/
+!/app/img/
