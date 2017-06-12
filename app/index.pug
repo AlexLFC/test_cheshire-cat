@@ -1,0 +1,24 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        title Тестовое front end
+        //link(rel="shortcut icon" href="images/favicon.ico" type="image/x-icon")
+        link(rel="stylesheet" href="style/bootstrap.min.css")
+        link(rel="stylesheet" href="style/main.css")
+
+        //script(src="js/modernizr-2.8.3.min.js")
+    body
+        header.header
+        .container
+            .row
+                .col-md-3
+                    include pug/nav
+                .col-md-9
+                    include pug/content
+                    include pug/modal
+        footer.footer
+        script(src="js/jquery-2.2.4.js")
+        script(src="js/bootstrap.min.js")
+        script(src="js/main.js")
