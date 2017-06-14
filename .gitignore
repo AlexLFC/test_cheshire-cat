@@ -14,3 +14,4 @@ index.html
 !/app/style/
 !/app/index.pug
 /app/style/main.css.map
+!/app/index.html

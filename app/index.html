@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Тестовое front end</title>
+    <!--link(rel="shortcut icon" href="images/favicon.ico" type="image/x-icon")-->
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/main.css">
+    <!--script(src="js/modernizr-2.8.3.min.js")-->
+  </head>
+  <body>
+    <header class="header"></header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-lg-4 col-xs-6 col-xs-cost">
+              <div class="product">
+                <div class="product__img-block"><img class="product__img" src="img/product_1.png" alt="Acana Wild Prairie catand dog"></div>
+                <div class="product__name-block">
+                  <h3 class="product__name"><a class="product__name-link" href="#">Acana Wild Prairie catand dog</a></h3>
+                </div>
+                <div class="product__description-block">
+                  <p class="product__description">Беззерновой корм с курицей для собак корм с курицей</p>
+                </div>
+                <div class="product__price-block dropdown">
+                  <div id="dLabel_1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <p class="product__price" data-price="100000">100000 руб</p><span class="change-weight" data-weight="0.32">0,32 кг<span class="icon-caret"></span></span>
+                  </div>
+                  <div class="dropdown-menu" aria-labelledby="dLabel_1">
+                    <ul class="price-product__list">
+                      <li class="price-product__item active-product" data-price="100000" data-weight="0,34">100000 руб<span>0,34 кг</span></li>
+                      <li class="price-product__item" data-price="480000" data-weight="2,42">480000 руб<span>2,42 кг</span></li>
+                      <li class="price-product__item" data-price="950000" data-weight="6,8">950000 руб<span>6,8 кг</span></li>
+                      <li class="price-product__item" data-price="1650000" data-weight="12">1650000 руб<span>12 кг</span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="product__buttons"><a class="product__buttons-basket" data-toggle="modal" data-target="#myModal">В корзину</a><a class="product__buttons-detail" href="#">Подробнее</a></div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-6 col-xs-cost">
+              <div class="product">
+                <div class="product__img-block"><img class="product__img" src="img/product_2.png" alt="Acana Wild Prairie catand dog"></div>
+                <div class="product__name-block">
+                  <h3 class="product__name"><a class="product__name-link" href="#">Acana Wild Prairie dog Wild Prairie dog</a></h3>
+                </div>
+                <div class="product__description-block">
+                  <p class="product__description">Беззерновой корм с курицей для собак корм с курицей</p>
+                </div>
+                <div class="product__price-block dropdown">
+                  <div id="dLabel_2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <p class="product__price" data-price="100000">100000 руб</p><span class="change-weight" data-weight="0.32">0,32 кг<span class="icon-caret"></span></span>
+                  </div>
+                  <div class="dropdown-menu" aria-labelledby="dLabel_2">
+                    <ul class="price-product__list">
+                      <li class="price-product__item active-product" data-price="100000" data-weight="0,34">100000 руб<span>0,34 кг</span></li>
+                      <li class="price-product__item" data-price="480000" data-weight="2,42">480000 руб<span>2,42 кг</span></li>
+                      <li class="price-product__item" data-price="950000" data-weight="6,8">950000 руб<span>6,8 кг</span></li>
+                      <li class="price-product__item" data-price="1650000" data-weight="12">1650000 руб<span>12 кг</span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="product__buttons"><a class="product__buttons-basket" data-toggle="modal" data-target="#myModal">В корзину</a><a class="product__buttons-detail" href="#">Подробнее</a></div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-6 col-xs-cost">
+              <div class="product">
+                <div class="product__img-block"><img class="product__img" src="img/product_3.png" alt="Acana Wild Prairie catand dog"></div>
+                <div class="product__name-block">
+                  <h3 class="product__name"><a class="product__name-link" href="#">Ami Play Crazy</a></h3>
+                </div>
+                <div class="product__description-block">
+                  <p class="product__description">Лежак овальный, размер XS</p>
+                </div>
+                <div class="product__price-block dropdown">
+                  <div id="dLabel_3" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <p class="product__price" data-price="100000">100000 руб</p><span class="change-weight" data-weight="0.32">0,32 кг<span class="icon-caret"></span></span>
+                  </div>
+                  <div class="dropdown-menu" aria-labelledby="dLabel_3">
+                    <ul class="price-product__list">
+                      <li class="price-product__item active-product" data-price="100000" data-weight="0,34">100000 руб<span>0,34 кг</span></li>
+                      <li class="price-product__item" data-price="480000" data-weight="2,42">480000 руб<span>2,42 кг</span></li>
+                      <li class="price-product__item" data-price="950000" data-weight="6,8">950000 руб<span>6,8 кг</span></li>
+                      <li class="price-product__item" data-price="1650000" data-weight="12">1650000 руб<span>12 кг</span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="product__buttons"><a class="product__buttons-basket" data-toggle="modal" data-target="#myModal">В корзину</a><a class="product__buttons-detail" href="#">Подробнее</a></div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-6 col-xs-cost">
+              <div class="product">
+                <div class="product__img-block"><img class="product__img" src="img/product_4.png" alt="Acana Wild Prairie catand dog"></div>
+                <div class="product__name-block">
+                  <h3 class="product__name"><a class="product__name-link" href="#">Acana Wild Prairie catand dog</a></h3>
+                </div>
+                <div class="product__description-block">
+                  <p class="product__description">Беззерновой корм с курицей для собак корм с курицей</p>
+                </div>
+                <div class="product__price-block dropdown">
+                  <div id="dLabel_4" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <p class="product__price" data-price="100000">100000 руб</p><span class="change-weight" data-weight="0.32">0,32 кг<span class="icon-caret"></span></span>
+                  </div>
+                  <div class="dropdown-menu" aria-labelledby="dLabel_4">
+                    <ul class="price-product__list">
+                      <li class="price-product__item active-product" data-price="100000" data-weight="0,34">100000 руб<span>0,34 кг</span></li>
+                      <li class="price-product__item" data-price="480000" data-weight="2,42">480000 руб<span>2,42 кг</span></li>
+                      <li class="price-product__item" data-price="950000" data-weight="6,8">950000 руб<span>6,8 кг</span></li>
+                      <li class="price-product__item" data-price="1650000" data-weight="12">1650000 руб<span>12 кг</span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="product__buttons"><a class="product__buttons-basket" data-toggle="modal" data-target="#myModal">В корзину</a><a class="product__buttons-detail" href="#">Подробнее</a></div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-6 col-xs-cost">
+              <div class="product">
+                <div class="product__img-block"><img class="product__img" src="img/product_5.png" alt="Acana Wild Prairie catand dog"></div>
+                <div class="product__name-block">
+                  <h3 class="product__name"><a class="product__name-link" href="#">Acana Wild Prairie dog Wild Prairie dog</a></h3>
+                </div>
+                <div class="product__description-block">
+                  <p class="product__description">Беззерновой корм с курицей для собак корм с курицей</p>
+                </div>
+                <div class="product__price-block dropdown">
+                  <div id="dLabel_5" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <p class="product__price" data-price="100000">100000 руб</p><span class="change-weight" data-weight="0.32">0,32 кг<span class="icon-caret"></span></span>
+                  </div>
+                  <div class="dropdown-menu" aria-labelledby="dLabel_5">
+                    <ul class="price-product__list">
+                      <li class="price-product__item active-product" data-price="100000" data-weight="0,34">100000 руб<span>0,34 кг</span></li>
+                      <li class="price-product__item" data-price="480000" data-weight="2,42">480000 руб<span>2,42 кг</span></li>
+                      <li class="price-product__item" data-price="950000" data-weight="6,8">950000 руб<span>6,8 кг</span></li>
+                      <li class="price-product__item" data-price="1650000" data-weight="12">1650000 руб<span>12 кг</span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="product__buttons"><a class="product__buttons-basket" data-toggle="modal" data-target="#myModal">В корзину</a><a class="product__buttons-detail" href="#">Подробнее</a></div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-6 col-xs-cost">
+              <div class="product">
+                <div class="product__img-block"><img class="product__img" src="img/product_6.png" alt="Acana Wild Prairie catand dog"></div>
+                <div class="product__name-block">
+                  <h3 class="product__name"><a class="product__name-link" href="#">Ami Play Crazy</a></h3>
+                </div>
+                <div class="product__description-block">
+                  <p class="product__description">Лежак овальный, размер XS</p>
+                </div>
+                <div class="product__price-block dropdown">
+                  <div id="dLabel_6" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <p class="product__price" data-price="100000">100000 руб</p><span class="change-weight" data-weight="0.32">0,32 кг<span class="icon-caret"></span></span>
+                  </div>
+                  <div class="dropdown-menu" aria-labelledby="dLabel_6">
+                    <ul class="price-product__list">
+                      <li class="price-product__item active-product" data-price="100000" data-weight="0,34">100000 руб<span>0,34 кг</span></li>
+                      <li class="price-product__item" data-price="480000" data-weight="2,42">480000 руб<span>2,42 кг</span></li>
+                      <li class="price-product__item" data-price="950000" data-weight="6,8">950000 руб<span>6,8 кг</span></li>
+                      <li class="price-product__item" data-price="1650000" data-weight="12">1650000 руб<span>12 кг</span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="product__buttons"><a class="product__buttons-basket" data-toggle="modal" data-target="#myModal">В корзину</a><a class="product__buttons-detail" href="#">Подробнее</a></div>
+              </div>
+            </div>
+          </div>
+          <!--Button trigger modal-->
+          <!--button.btn.btn-primary.btn-lg(type="button"  data-toggle="modal" data-target="#myModal")| Launch demo modal-->
+          <!--Modal-->
+          <div class="myModal modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span class="modal-close" aria-hidden="true"></span></button>
+                  <h4 class="modal-title" id="myModalLabel">Корзина</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <div class="basket__img-block"><img class="basket__img" src="img/product_1.png"></div>
+                    </div>
+                    <div class="col-sm-9">
+                      <div class="basket__title-block">
+                        <h3 class="basket__title">Когтеточка–домик Trixie «Moriles»</h3>
+                      </div>
+                      <div class="basket__description-block">
+                        <p class="basket__description">Коричневая</p><span class="basket__price">100000 руб</span>
+                      </div>
+                      <div class="basket__weight-block"><span class="basket__weight-title">Количество, шт</span>
+                        <div class="basket__weight-control"><span class="basket__weight-minus">-</span><span class="basket__weight" data-guantity="1">1</span><span class="basket__weight-add">+</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <div class="basket__total-price-block"><span class="basket__total-wpapper">Итого:  <span class="total-price" data-total-price="55000">55 000 </span>Br</span></div>
+                  <button class="close-modal-button" type="button" data-dismiss="modal">Вернуться в каталог</button>
+                  <button class="send-form" type="button">Оформить заказ</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer"></footer>
+    <script src="js/jquery-2.2.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
